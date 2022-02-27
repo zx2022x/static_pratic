@@ -1,0 +1,106 @@
+// 快捷导航模块
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?tomleg');
+    src:  url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+      url('../fonts/icomoon.woff?tomleg') format('woff'),
+      url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+
+.w{
+    width: 1200px;
+    margin:0 auto;
+}
+.style_red{
+    color:#c81623;
+}
+.shortcut{
+    height: 31px;
+    line-height:31px;
+    background-color: #f1f1f1;
+    .fl{
+        
+        li{
+          float:left;
+        }
+     }
+     .fr{
+        float:right;
+        li{
+          float:left;
+          font-size:12px;
+          color:#666666;
+         
+       
+       }
+     
+     }
+}
+.s{
+  width: 1px;
+  height: 12px;
+  background-color: #666666;
+  margin:9px 14px 10px 16px;
+}
+.arrow-icon::after{
+  content:'\e91e';
+  font-family: 'icomoon';
+  margin-left:6px;
+}
+// 快捷导航模块
+// 头部模块
+.header{
+   position:relative;
+   
+   height: 106px;
+   .logo{
+       position:absolute;
+       width: 171px;
+       height: 61px;
+  
+       top:26px;
+      //  font-size:0;
+
+       a{
+
+        width: 171px;
+        height: 61px;
+        display:block;
+       
+         background: url(../images/logo.png) no-repeat;
+         text-indent:-999px;
+         overflow:hidden;
+
+       }
+
+   }
+}
+.search{
+  position:absolute;
+  
+  height: 37px;
+  width: 539px;
+  border:2px solid #b1191a;
+  top: 25px;
+  left: 347px;
+  
+  input{
+    float:left;
+     width: 454px;
+     height: 32px;
+
+  }
+  button
+  {
+    float:left;
+    height: 33px;
+    width: 81px;
+    background-color: #b1191a;
+  }
+}
