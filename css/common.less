@@ -57,7 +57,7 @@
 // 头部模块
 .header{
    position:relative;
-   background-color: #e7c4c4;
+  //  background-color: #e7c4c4;
    height: 106px;
    .logo{
        position:absolute;
@@ -120,5 +120,73 @@
        
        padding-right: 22px;
     }
+
+}
+.shopcar{
+  position:absolute;
+  width: 140px;
+  height: 36px;
+  line-height:36px;
+  border:1px solid #dfdfdf;
+  background-color: #f7f7f7;
+  top:27px;
+  right:64px;
+  &::before{
+    content:'\e93a';
+    font-family: 'icomoon';
+    font-size:13px;
+    color:#db5b5b;
+    margin-left:19px;
+    margin-right:7px;
+
+
+  }
+  &::after{
+    content:'\e920';
+    font-family: 'icomoon';
+    font-size:13px;
+    margin-left:10px;
+
+  }
+}
+// 头部模块
+
+// -- nav模块制作 start
+.nav{
+  height: 46px;
+  border-bottom:2px solid #b1191a;
+  
+   .w{
+   
+   
+    .dropdown{
+         .dt{
+          
+           float:left;
+           line-height: 46px;
+           width: 209px;
+           background-color: #b1191a;
+           font-size:17px;
+           text-align:center;
+           color:#ffffff;
+           
+         }
+        
+    }
+
+    .navitems{
+      li{
+        float:left;
+        line-height: 46px;
+        
+        padding-left: 44px;
+        font-size: 17px;
+        color:#333333;
+      }
+    }
+
+   }
+  
+
 
 }
