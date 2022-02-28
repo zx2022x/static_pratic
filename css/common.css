@@ -148,12 +148,22 @@
   position: absolute;
   left: 0;
   top: 0;
-  background-color: #e78e8e;
   width: 209px;
   height: 466px;
   border-left: 1px solid #c81623;
 }
 .w .dd li {
   height: 31px;
+  background-color: #c81623;
   line-height: 31px;
+}
+.w .dd li:hover {
+  background-color: #f7f7f7;
+}
+.w .dd li:hover a {
+  color: red;
+}
+.w .dd li a {
+  margin-left: 16px;
+  color: #ffffff;
 }
