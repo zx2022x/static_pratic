@@ -117,6 +117,9 @@
   height: 46px;
   border-bottom: 2px solid #b1191a;
 }
+.nav .w {
+  position: relative;
+}
 .nav .w .dropdown .dt {
   float: left;
   line-height: 46px;
@@ -126,10 +129,31 @@
   text-align: center;
   color: #ffffff;
 }
+.nav .w .navitems {
+  position: absolute;
+  left: 250px;
+  top: 0;
+}
 .nav .w .navitems li {
   float: left;
   line-height: 46px;
   padding-left: 44px;
   font-size: 17px;
   color: #333333;
+}
+.w {
+  position: relative;
+}
+.w .dd {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #e78e8e;
+  width: 209px;
+  height: 466px;
+  border-left: 1px solid #c81623;
+}
+.w .dd li {
+  height: 31px;
+  line-height: 31px;
 }
