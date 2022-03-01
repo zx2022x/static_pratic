@@ -145,6 +145,7 @@
   position: relative;
 }
 .w .dd {
+  display: none;
   position: absolute;
   left: 0;
   top: 0;
@@ -166,4 +167,100 @@
 .w .dd li a {
   margin-left: 16px;
   color: #ffffff;
+}
+.w .dd li::after {
+  position: absolute;
+  content: '\e920';
+  font-family: 'icomoon';
+  left: 192px;
+  color: #f4eaeb;
+}
+.w .swiper {
+  display: none;
+  position: relative;
+  float: left;
+  width: 722px;
+  height: 455px;
+  background-color: #998888;
+  margin-top: 11px;
+  left: 219px;
+}
+.footer {
+  height: 417px;
+  background-color: #f5f5f5;
+}
+.footer .footer_inside {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  height: 417px;
+}
+.footer .footer_inside .dd {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 209px;
+  height: 466px;
+  border-left: 1px solid #c81623;
+}
+.footer .footer_inside .dd li {
+  height: 31px;
+  background-color: #c81623;
+  line-height: 31px;
+}
+.footer .footer_inside .dd li:hover {
+  background-color: #f7f7f7;
+}
+.footer .footer_inside .dd li:hover a {
+  color: red;
+}
+.footer .footer_inside .dd li a {
+  margin-left: 16px;
+  color: #ffffff;
+}
+.footer .footer_inside .dd li::after {
+  position: absolute;
+  content: '\e920';
+  font-family: 'icomoon';
+  left: 192px;
+  color: #f4eaeb;
+}
+.footer .footer_inside .swiper {
+  display: none;
+  position: relative;
+  float: left;
+  width: 722px;
+  height: 455px;
+  background-color: #998888;
+  margin-top: 11px;
+  left: 219px;
+}
+.footer .footer_inside .footer_top {
+  height: 110px;
+  border-bottom: 1px solid #ededed;
+  padding-top: 31px ;
+}
+.footer .footer_inside .footer_top li {
+  height: 50px;
+  float: left;
+  padding-left: 36px;
+}
+.footer .footer_inside .footer_top li h5 {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-right: 7px;
+  background: url(../images/icons.png) no-repeat -252px -2px;
+}
+.footer .footer_inside .footer_top li .service_txt {
+  margin-top: 8px;
+  float: left;
+}
+.footer .footer_inside .footer_top li .service_txt .h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+.footer .footer_inside .footer_top li .service_txt p {
+  font-size: 12px;
 }
